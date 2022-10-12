@@ -168,7 +168,15 @@ let message = function(name) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(message('Allie'));
+console.log(message('Allie'));
+
+
+// >>>> USING ARROW FUNCTIONS <<<<
+let newMessage = name => `Hello, ${name}!`;
+console.log('Using arrow-functions:', newMessage('Allie'));
+
+
+
 
 
 let Student = function(name, age, hometown) {
