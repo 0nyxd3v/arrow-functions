@@ -131,7 +131,22 @@ let objectLit = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(objectLit());
+console.log(objectLit());
+
+
+// >>>> USING ARROW FUNCTIONS <<<<
+let newObjectLit = () => ({
+  key1: 'value1',
+  key2: 'value2',
+  key3: 'value3',
+});
+
+console.log('Using arrow-functions:', newObjectLit());
+
+
+
+
+
 
 
 let sumAndProduct = function(a, b) {
