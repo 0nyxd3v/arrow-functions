@@ -113,7 +113,13 @@ let sum = function(a, b, c, d) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sum(1, 2, 3, 4));
+console.log(sum(1, 2, 3, 4));
+
+// >>>> USING ARROW FUNCTIONS <<<<
+let newSum = (a, b, c, d) => a + b + c + d;
+console.log('Using arrow-functions, a + b + c + d =', newSum(1, 2, 3, 4));
+
+
 
 
 let objectLit = function() {
