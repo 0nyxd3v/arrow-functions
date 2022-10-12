@@ -196,15 +196,14 @@ console.log(joe);
 // >>>> USING ARROW FUNCTIONS <<<<
 // >>>> cannot use arrow functions with 'this' <<<<
 
-// let NewStudent = (name, age, hometown) => {
-//   this.name = name;
-//   this.age = age;
-//   this.hometown = hometown;
-// };
+let NewStudent = (name, age, hometown) => {
+  this.name = name;
+  this.age = age;
+  this.hometown = hometown;
+};
 
 // let newJoe = new NewStudent('Joe', 'Schmoe', 100);
 // console.log('Using arrow-functions:', newJoe);
-
 
 
 
@@ -216,9 +215,16 @@ Student.prototype.greeting = function() {
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this method to break!
-// console.log(joe.greeting());
+console.log(joe.greeting());
 
 // TODO: After viewing the previous console.log(), return the code to a working state.
+
+
+// >>>> USING ARROW FUNCTIONS <<<<
+// >>>> cannot use arrow functions on method and with 'this' <<<<
+// let newJoe = new NewStudent('Joe', 'Schmoe', 100);
+// console.log('Using arrow-functions:', newJoe);
+
 
 
 
